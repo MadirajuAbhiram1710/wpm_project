@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Demockracy Login</title>
+  <style>
+    body {
+      background-color: #f0f0f0;
+      font-family: Arial, sans-serif;
+    }
+
+    .login-container {
+      width: 350px;
+      margin: 100px auto;
+      padding: 30px;
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    h1 {
+      color: #d62828;
+      margin-bottom: 10px;
+    }
+
+    .mock-word {
+      color: #198754; /* Green color for "mock" */
+      font-weight: bold;
+    }
+
+    p.tagline {
+      color: #6c757d;
+      font-style: italic;
+      margin-bottom: 20px;
+    }
+
+    label {
+      display: block;
+      margin-top: 10px;
+      text-align: left;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    input[type="submit"] {
+      margin-top: 20px;
+      background-color: #d62828;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #a61b1b;
+    }
+
+    a {
+      display: block;
+      margin-top: 15px;
+      color: #007bff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .footer {
+      margin-top: 20px;
+      font-size: 12px;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="login-container">
+    <h1>De<span class="mock-word">mock</span>racy</h1>
+    <p class="tagline">Where logic goes to vote and satire wins elections.</p>
+
+    <form>
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+
+      <input type="submit" value="Login & Blame">
+    </form>
+
+    <a href="#">Forgot your promises? Blame someone else</a>
+
+    <div class="footer">
+      <p>This site is completely fake. Any similarity to real politics is purely intentional.</p>
+    </div>
+  </div>
+
+</body>
+</html>
